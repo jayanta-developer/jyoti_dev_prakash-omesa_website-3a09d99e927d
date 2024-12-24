@@ -1,0 +1,134 @@
+.footer {
+  width: 100%;
+  padding: 0 3%;
+}
+.mapBox {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mapBox .worldMap {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+}
+.mapCenterBox {
+  z-index: 1;
+  width: 90px;
+  height: 90px;
+  position: relative;
+}
+.mapCenterBox .FClogo {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 2;
+}
+.fMineImg {
+  position: absolute;
+  top: 44px;
+  right: -67px;
+  width: 160px;
+}
+.mapBox .navInnerBox {
+  display: none;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  justify-content: center;
+  margin: 20px 0;
+}
+.fContactBox {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column-reverse;
+  gap: 20px;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 10px 0;
+}
+.fContactBox p {
+  font-size: 16px !important;
+}
+.contactItemBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 10px;
+}
+.fLastBox {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fLastBox p {
+  font-size: 8px !important;
+  font-weight: 600 !important;
+}
+.fLastBox span {
+  color: #bb0d19;
+}
+.FMLogoBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+/* Tabe view */
+@media only screen and (min-width: 768px) {
+  .fContactBox {
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .mapBox {
+    height: 600px;
+  }
+  .mapCenterBox {
+    width: 250px;
+    height: 250px;
+  }
+  .fMineImg {
+    top: 5px;
+    right: -233px;
+    width: 395px;
+  }
+  .mapBox .navInnerBox {
+    display: flex;
+  }
+  .fLastBox {
+    height: 70px;
+  }
+  .fLastBox p {
+    font-size: 16px !important;
+  }
+  .fContactBox p {
+    font-size: 16px !important;
+  }
+}
+
+/* Desktop view */
+@media only screen and (min-width: 1000px) {
+  .fContactBox {
+    height: 60px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .FMLogoBox {
+    width: unset;
+  }
+}

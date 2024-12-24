@@ -1,0 +1,902 @@
+.homeContainer {
+  width: 100%;
+}
+.homeScetion {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+}
+.worldMap {
+  position: absolute;
+  width: 100%;
+  height: 65%;
+  top: -65px;
+  right: 0px;
+  z-index: -1;
+}
+.workerImgBox {
+  width: 90%;
+  position: absolute;
+  top: 47px;
+  right: 12px;
+  display: flex;
+  justify-content: start;
+  opacity: 0.5;
+}
+.workerImgBox .HworkerImg {
+  width: 80%;
+  height: 75%;
+}
+.workerImgBox .miningDumperImg {
+  width: 31%;
+  position: absolute;
+  top: 123px;
+  left: 147px;
+  max-width: 210px;
+}
+.dumperImg {
+  position: absolute;
+  top: 249px;
+  left: 286px;
+  width: 250px !important;
+}
+.homeWcTextBox {
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  z-index: 2;
+  position: absolute;
+  top: 0%;
+  gap: 30px;
+}
+.homeWcTextBox .welHeader2 br {
+  display: none;
+}
+.homeWcTextBox * {
+  text-align: center;
+}
+.homeBtnBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.welHeader {
+  font-family: "DMSerifDisplay" !important;
+  font-size: 45px !important;
+  color: #bb0d19;
+}
+.welHeader2 {
+  font-family: "DMSerifDisplay" !important;
+  font-size: 52px !important;
+  color: #190d9a;
+  line-height: 65px !important;
+}
+.welSubText {
+  font-size: 20px !important;
+  color: #000;
+  font-family: "Montserrat" !important;
+  font-weight: 500 !important;
+}
+.welNText {
+  font-size: 16px !important;
+  color: #00000099;
+}
+.contactBtnBox {
+  width: 170px;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.contactBtnBox img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.contactBtnBox p {
+  font-size: 16px !important;
+  color: #fff;
+  z-index: 2;
+  padding-left: 10px;
+  font-weight: 600 !important;
+  transition: all 0.5s;
+}
+.contactBtnBox:hover p {
+  color: #ffffffe7;
+  font-size: 18px !important;
+}
+.achiveText {
+  width: 100%;
+  font-size: 10px !important;
+  letter-spacing: 0.3cm !important;
+  text-align: center;
+  color: #000;
+  font-weight: 600 !important;
+}
+.achiveText span {
+  /* margin: 0 20px; */
+}
+.loremBox {
+  position: absolute;
+  bottom: -30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 3%;
+  gap: 30px;
+  z-index: 1;
+}
+.loremCardBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  overflow-x: clip;
+}
+.loremCard {
+  width: 18%;
+  height: 65px;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.viewAllBtn {
+  width: 18%;
+  height: 65px;
+  border: 3px solid #e0bf41;
+  border-radius: 14px;
+  background: #bb0d19;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.viewAllBtn p {
+  font-size: 9px !important;
+  color: #fff;
+  font-weight: 600 !important;
+}
+.loremCard p {
+  font-family: "DMSerifDisplay" !important;
+  font-size: 18px !important;
+}
+.loremCard span {
+  font-size: 8px !important;
+  color: #000;
+}
+.aboutOmesaSection {
+  width: 100%;
+  background: #fff5da;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 0 3%;
+  gap: 45px;
+  padding-top: 98px;
+  padding-bottom: 50px;
+  overflow-x: clip;
+}
+.omesaBg {
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  top: 10%;
+}
+.aoImgBox {
+  width: 100%;
+  z-index: 1;
+  position: relative;
+}
+.aoImgBox .aoImgLable {
+  position: absolute;
+  bottom: 40px;
+  right: 0px;
+}
+.aoImgBox .aoImgLable > div {
+  position: relative;
+  width: 150px;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aoImgBox .aoImgLable > div img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.aoImgBox .aoImgLable p {
+  font-size: 30px !important;
+  font-weight: 600 !important;
+  color: #fff;
+  text-align: center;
+  z-index: 1;
+}
+.aoImgBox img {
+  width: 100%;
+  height: 100%;
+}
+.aoTextBox {
+  width: 100%;
+  background: #fff;
+  padding: 15px;
+  z-index: 1;
+  position: relative;
+}
+.aoTextBox .aoHeader {
+  font-family: "DMSerifDisplay" !important;
+  font-size: 45px !important;
+  color: #190d9a;
+  line-height: 60px !important;
+}
+.aoTextBox .aoHeader span {
+  font-family: "DMSerifDisplay" !important;
+  font-size: 50px !important;
+  color: #bb0d19;
+}
+.HrLine {
+  width: 200px;
+  min-height: 10px;
+  margin-top: 20px;
+}
+.amSubText {
+  color: #00000099;
+  font-size: 17px !important;
+  font-weight: 600 !important;
+  margin: 20px 0 !important;
+}
+.amNText {
+  color: #00000099;
+  font-size: 15px !important;
+  margin-bottom: 20px !important;
+  font-weight: 500 !important;
+}
+.aoTextBox .contactBtnBox {
+  position: absolute;
+  bottom: -22px;
+}
+.publicationSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 710px;
+}
+.pubBox1 {
+  width: 100%;
+  position: relative;
+  background: #ffafad;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pubBox2 {
+  width: 100%;
+  height: 10%;
+  background: #fff;
+  position: relative;
+}
+.pubBox1 .pub1BgImg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+}
+.pubHeader {
+  font-family: "DMSerifDisplay" !important;
+  font-size: 55px !important;
+  color: #000;
+}
+.pubSubHeader {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  color: #000;
+  text-align: center;
+  width: 95%;
+  margin-bottom: 34px !important;
+}
+.publicationSection .HrLine {
+  position: relative;
+  top: -23px;
+}
+.publicationCardBox {
+  width: 100%;
+  padding: 0 3%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+  z-index: 2;
+  overflow: scroll;
+  overflow-y: hidden;
+  margin-bottom: 20px;
+}
+.publicationCardBox::-webkit-scrollbar {
+  display: none;
+}
+.publicationCard {
+  width: 23%;
+  max-width: 325px;
+  min-width: 215px;
+  height: 355px;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  gap: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.publicationCard .pubCimgBox {
+  width: 100%;
+  height: 188px;
+  border-radius: 20px;
+}
+.publicationCard .pubCimgBox img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  opacity: 1;
+}
+.pubCName {
+  font-family: "DMSerifDisplay" !important;
+  font-size: 20px !important;
+  color: #000;
+}
+.pubCSummery {
+  font-size: 14px !important;
+  color: #00000099;
+}
+.pubCGoBtn {
+  width: 47px;
+  height: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid;
+  /* transition: all 0.5s; */
+  margin-bottom: 5px;
+}
+.pubCGoBtn img {
+  width: 55%;
+}
+.pubCGoBtn:hover {
+  background: #d10615;
+  border: 1px solid #fff;
+}
+.pubCGoBtn path {
+  transition: all 0.5s;
+}
+.pubCGoBtn:hover path {
+  fill: #fff;
+}
+.pub2BtnBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 24%;
+}
+.donationSection {
+  width: 100%;
+  background: #fff5da;
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 50px 3%;
+  justify-content: center;
+  gap: 30px;
+  overflow-x: clip;
+}
+.donTextBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.donImgBox {
+  width: 100%;
+  position: relative;
+}
+.donationLabel {
+  width: 170px;
+}
+.donImgBox img {
+  max-width: 515px;
+  width: 100%;
+}
+.donationSection .amNText {
+  width: 95%;
+}
+.donationSection .contactBtnBox {
+  width: 230px;
+}
+.donationSection .HrLine {
+  margin: 0px;
+  margin-bottom: 20px;
+}
+.gellarySection {
+  width: 100%;
+}
+.yellowBox {
+  width: 100%;
+  height: 300px;
+  background: #fff5da;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.yellowBox img {
+  position: absolute;
+  top: 50px;
+  width: 94%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.gelleryInnerBox {
+  width: 100%;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(236, 236, 236, 1) 52%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+}
+.gellarySection .HrLine {
+  margin: 0px;
+  margin-bottom: 20px;
+}
+.photoGelleryMainbox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2%;
+  gap: 10px;
+}
+.photoGelleryRow {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+.photoGelleryRow .GrA1 {
+  width: 24%;
+}
+.photoGelleryRow .GrA2 {
+  width: 18%;
+}
+.photoGelleryRow .GrA3 {
+  width: 24%;
+}
+.photoGelleryRow .GrA4 {
+  width: 25%;
+}
+
+.photoGelleryRow .GrB1 {
+  width: 21%;
+}
+.photoGelleryRow .GrB2 {
+  width: 27%;
+}
+.photoGelleryRow .GrB3 {
+  width: 22%;
+}
+.photoGelleryRow .GrB4 {
+  width: 21%;
+}
+
+.photoGelleryRow .GrC1 {
+  width: 24%;
+}
+.photoGelleryRow .GrC2 {
+  width: 22%;
+}
+.photoGelleryRow .GrC3 {
+  width: 22%;
+}
+.photoGelleryRow .GrC4 {
+  width: 23%;
+}
+.gellarySection .pubSubHeader {
+  margin-bottom: 65px !important;
+}
+.gellarySection .pub2BtnBox {
+  position: relative;
+  margin: 60px 0;
+}
+.newsBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.newsBox .HrLine {
+  margin: 0px;
+  margin-bottom: 20px;
+}
+.newsCardBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 17px;
+  padding: 0 3%;
+}
+.newsCard {
+  width: 33%;
+  max-width: 430px;
+  height: 120px;
+  border-radius: 0 25px 0 25px;
+  position: relative;
+  overflow: hidden;
+}
+.newsBox .pubSubHeader {
+  margin-bottom: 77px !important;
+}
+.newsCard img {
+  width: 100%;
+  height: 100%;
+}
+.newsBox .pub2BtnBox {
+  position: relative;
+  margin: 60px 0;
+}
+.newSummeryBox {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: end;
+  padding-bottom: 22px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgb(0 0 0 / 63%) 80%
+  );
+  cursor: pointer;
+}
+.newSummeryBox p {
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  color: #fff;
+  text-align: center;
+}
+/* Tabe view */
+@media only screen and (min-height: 660px) {
+  .homeWcTextBox {
+    top: 10%;
+    gap: 34px;
+  }
+}
+@media only screen and (min-height: 750px) {
+  .homeWcTextBox {
+    top: 17%;
+    gap: 34px;
+  }
+}
+@media only screen and (min-height: 800px) {
+  .homeWcTextBox {
+    gap: 38px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .homeScetion {
+    height: 80vh;
+  }
+  .workerImgBox {
+    width: 47%;
+    top: 170px;
+    right: 0px;
+    opacity: 1;
+  }
+  .workerImgBox .miningDumperImg {
+    top: 140px;
+    left: 165px;
+  }
+  .loremCard {
+    padding-left: 10px;
+    width: 20%;
+    height: 130px;
+    border-radius: 20px;
+  }
+  .loremCard p {
+    font-size: 30px !important;
+  }
+
+  .loremCardBox {
+    justify-content: space-between;
+    gap: 15px;
+    padding: 0 15px;
+  }
+  .viewAllBtn {
+    width: 20%;
+    height: 130px;
+    border: 3px solid #e0bf41;
+    border-radius: 20px;
+  }
+  .aboutOmesaSection {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 135px;
+  }
+  .aoImgBox {
+    width: 45%;
+    height: 512px;
+  }
+  .amSubText {
+    font-size: 18px !important;
+  }
+  .pubSubHeader {
+    width: 60%;
+    margin-bottom: 70px !important;
+  }
+  .publicationCard {
+    min-width: 243px;
+    height: unset;
+  }
+  .publicationCardBox {
+    padding: 0 2%;
+  }
+  .publicationCard .pubCimgBox {
+    height: 200px;
+    gap: 5px;
+  }
+  .publicationSection {
+    height: 790px;
+  }
+  .donImgBox img {
+    position: absolute;
+    top: -20px;
+  }
+  .gelleryInnerBox {
+    padding-top: 21%;
+  }
+  .newSummeryBox {
+    padding-bottom: 40px;
+  }
+  .newSummeryBox p {
+    font-size: 12px !important;
+  }
+  .homeWcTextBox {
+    padding-left: 10px;
+    gap: 30px;
+    top: 116px;
+    height: 400px;
+  }
+  .photoGelleryMainbox {
+    padding: 0 2%;
+  }
+  .welHeader2 {
+    font-size: 65px !important;
+  }
+  .welSubText {
+    font-size: 28px !important;
+  }
+  .contactBtnBox p {
+    font-size: 18px !important;
+  }
+  .contactBtnBox {
+    width: 200px;
+    min-height: 50px;
+  }
+  .achiveText {
+    font-size: 18px !important;
+    letter-spacing: 0.7cm !important;
+  }
+  .viewAllBtn p {
+    font-size: 18px !important;
+  }
+  .loremCard span {
+    font-size: 16px !important;
+  }
+  .loremBox {
+    bottom: -67px;
+  }
+  .aoTextBox {
+    width: 55%;
+  }
+  .aoTextBox .aoHeader {
+    font-size: 55px !important;
+  }
+  .aoTextBox .aoHeader span {
+    font-size: 70px !important;
+  }
+  .pubHeader {
+    font-size: 70px !important;
+  }
+  .pubCName {
+    font-size: 24px !important;
+  }
+  .pubCSummery {
+    font-size: 16px !important;
+  }
+  .pubBox2 {
+    height: 13%;
+  }
+  .donationSection {
+    flex-direction: row;
+  }
+  .donTextBox {
+    width: 60%;
+    padding-left: 4%;
+  }
+  .donImgBox {
+    width: 40%;
+  }
+  .photoGelleryRow .GrA1 {
+    width: 26%;
+  }
+  .photoGelleryRow .GrA2 {
+    width: 19%;
+  }
+  .photoGelleryRow .GrA3 {
+    width: 25%;
+  }
+  .photoGelleryRow .GrA4 {
+    width: 26%;
+  }
+
+  .photoGelleryRow .GrB1 {
+    width: 22%;
+  }
+  .photoGelleryRow .GrB2 {
+    width: 29%;
+  }
+  .photoGelleryRow .GrB3 {
+    width: 23%;
+  }
+  .photoGelleryRow .GrB4 {
+    width: 22%;
+  }
+
+  .photoGelleryRow .GrC1 {
+    width: 25%;
+  }
+  .photoGelleryRow .GrC2 {
+    width: 23%;
+  }
+  .photoGelleryRow .GrC3 {
+    width: 23%;
+  }
+  .photoGelleryRow .GrC4 {
+    width: 25%;
+  }
+  .newsCard {
+    height: 320px;
+    border-radius: 0 50px 0 50px;
+  }
+  .donationSection .amNText {
+    width: 80%;
+  }
+  .homeWcTextBox .welHeader2 br {
+    display: inline;
+  }
+  .homeWcTextBox * {
+    text-align: unset;
+  }
+  .homeBtnBox {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+  }
+}
+
+/* Desktop view */
+@media only screen and (min-width: 1000px) {
+  .homeScetion {
+    height: 90vh;
+  }
+  .worldMap {
+    width: 89%;
+    height: 85%;
+    top: 0px;
+  }
+  .homeWcTextBox {
+    width: 40%;
+    gap: 10px;
+    left: 3%;
+  }
+  .workerImgBox {
+    top: 50px;
+  }
+  .workerImgBox .miningDumperImg {
+    top: 229px;
+    left: 266px;
+  }
+  .loremCard {
+    padding-left: 25px;
+  }
+  .loremCard p {
+    font-size: 50px !important;
+  }
+  .loremCard span {
+    font-size: 18px !important;
+  }
+  .loremCardBox {
+    justify-content: center;
+  }
+  .viewAllBtn {
+    width: 10%;
+  }
+  .aboutOmesaSection {
+    justify-content: center;
+    gap: 45px;
+  }
+  .aoImgBox {
+    width: 36%;
+  }
+  .amSubText {
+    font-size: 21px !important;
+  }
+  .amNText {
+    font-size: 17px !important;
+  }
+  .pubSubHeader {
+    margin-bottom: 110px !important;
+  }
+  .publicationCardBox {
+    padding: 0 3%;
+    justify-content: center;
+    overflow: unset;
+    margin-bottom: 0;
+  }
+  .publicationCard .pubCimgBox {
+    height: 350px;
+    gap: 10px;
+  }
+  .pubBox2 {
+    height: 50%;
+  }
+  .publicationSection {
+    height: 1100px;
+  }
+  .donImgBox img {
+    top: -104px;
+  }
+  .gelleryInnerBox {
+    padding-top: 33%;
+  }
+  .newSummeryBox p {
+    font-size: 18px !important;
+  }
+  .photoGelleryMainbox {
+    padding: 0 3%;
+    gap: 10;
+  }
+  .photoGelleryRow {
+    gap: 10;
+  }
+  .welHeader2 {
+    font-size: 70px !important;
+  }
+  .pubBox1 {
+    height: 50%;
+  }
+  .photoGelleryRow .GrA3 {
+    width: 26%;
+  }
+  .photoGelleryRow .GrB2 {
+    width: 30%;
+  }
+  .photoGelleryRow .GrC4 {
+    width: 26%;
+  }
+}

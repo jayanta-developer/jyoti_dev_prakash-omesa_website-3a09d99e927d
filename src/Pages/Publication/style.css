@@ -1,0 +1,55 @@
+.Publication .pubSubHeader {
+  margin: 30px 0 !important;
+  width: 100%;
+  padding: 0 3%;
+}
+.Publication .publicationCardBox {
+  gap: 15px;
+}
+.pub2Box {
+  height: unset !important;
+  margin: 0 0;
+  padding: 40px 2%;
+}
+.Publication .donationSection {
+  margin-top: 0px;
+}
+.Publication .publicationCard {
+  width: 31.8%;
+}
+.Publication .publicationSection {
+  height: auto;
+}
+/* Tabe view */
+@media only screen and (min-width: 768px) {
+  .Publication .publicationCardBox {
+    flex-wrap: wrap;
+  }
+  .Publication .publicationCard {
+    min-width: unset;
+  }
+  .Publication .pubSubHeader {
+    margin: 70px 0 !important;
+  }
+}
+
+/* Desktop view */
+@media only screen and (min-width: 1000px) {
+  .Publication .pubBox1 {
+    height: 40%;
+  }
+  .Publication .publicationCardBox {
+    justify-content: center;
+    padding-bottom: 40px;
+  }
+  .Publication .publicationCard {
+    width: 23%;
+  }
+
+  .Publication .donationSection {
+    margin-top: 112px;
+  }
+  .pub2Box {
+    margin: 20px 0;
+  }
+}

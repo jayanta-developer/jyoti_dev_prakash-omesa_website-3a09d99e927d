@@ -1,0 +1,90 @@
+.contacePage {
+  width: 100%;
+}
+.contackInputBox {
+  width: 100%;
+  padding: 0 3%;
+  padding-top: 30px;
+}
+.inputInnerBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  gap: 20px;
+}
+.inputBoxWLabel {
+  display: flex;
+  flex-direction: column;
+}
+.inputBoxWLabel input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #000000;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+.inputBoxWLabel input:focus {
+  outline: none;
+}
+.contackSummery {
+  font-size: 18px !important;
+  color: #00000099;
+  font-weight: 600 !important;
+  text-align: center;
+}
+.InputRowBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 18px;
+}
+.InputRowBox .inputBoxWLabel {
+  width: 100%;
+}
+.inputBoxWLabel textarea {
+  width: 100%;
+  height: 300px !important;
+  border: 1px solid #000000;
+  padding: 20px;
+  margin-top: 16px;
+}
+.inputBoxWLabel textarea:focus {
+  outline: none;
+}
+.inputBoxWLabel span {
+  color: red;
+}
+.inputBoxWLabel p {
+  font-size: 17px !important;
+}
+.contackInputBox .pub2BtnBox {
+  position: relative;
+  margin: 50px 0;
+}
+
+/* Tabe view */
+@media only screen and (min-width: 768px) {
+  .contackInputBox {
+    padding-top: 80px;
+  }
+  .contackSummery {
+    text-align: start;
+    font-size: 20px !important;
+  }
+  .InputRowBox {
+    flex-direction: row;
+    gap: 50px;
+  }
+  .InputRowBox .inputBoxWLabel {
+    width: 100%;
+  }
+  .contackInputBox .pub2BtnBox {
+    margin: 100px 0;
+  }
+}
+
+/* Desktop view */
+@media only screen and (min-width: 1000px) {
+}

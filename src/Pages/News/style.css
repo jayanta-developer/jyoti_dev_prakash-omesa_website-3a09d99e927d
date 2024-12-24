@@ -1,0 +1,39 @@
+.newsPage .gallerySummery {
+  width: 100%;
+}
+.newsPage .newsCardBox {
+  flex-wrap: wrap;
+  padding: 0;
+}
+.newsPage .newsCard {
+  width: 30%;
+}
+.newsPage .newSummeryBox p {
+  font-size: 8px !important;
+}
+
+/* Tabe view */
+@media only screen and (min-width: 768px) {
+  .newsPage .newsCard {
+    width: 31%;
+  }
+  .newsPage .gallerySummery {
+    width: 90%;
+  }
+  .newsPage .newSummeryBox p {
+    font-size: 12px !important;
+  }
+}
+
+/* Desktop view */
+@media only screen and (min-width: 1000px) {
+  .newsPage .newsCardBox {
+    padding: 5 3%;
+  }
+  .newsPage .newsCard {
+    width: 32%;
+  }
+  .newsPage .newSummeryBox p {
+    font-size: 18px !important;
+  }
+}

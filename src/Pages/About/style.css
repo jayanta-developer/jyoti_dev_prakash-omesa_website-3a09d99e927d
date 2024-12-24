@@ -1,0 +1,180 @@
+.aboutContainer {
+  width: 100%;
+}
+.aboutNavSection {
+  width: 100%;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: #000;
+}
+.aboutNavLabel {
+  font-family: "DMSerifDisplay" !important;
+  font-size: 40px !important;
+  color: #fff;
+  z-index: 1;
+}
+.aboutNavSection .NavBar {
+  position: absolute;
+  top: 0px;
+  z-index: 9;
+}
+.aboutNavSection .navBgImg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+}
+.aboutNavSection .navItem P {
+  color: #fff;
+}
+.aboutNavSection .navItem:hover P {
+  color: #e0bf41 !important;
+}
+.aboutParagraphSection {
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.APImgBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  overflow-x: clip;
+}
+.APImgBox img {
+  width: 50%;
+}
+.aboutContainer .donationSection {
+  margin-top: 70px;
+}
+
+.aboutContainer .aboutOmesaSection {
+  padding-top: 58px;
+}
+.aboutContainer.omesaBg {
+  top: 1%;
+}
+.teamSection {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  position: relative;
+  margin-top: 50px;
+  align-items: center;
+}
+.teamSection img {
+  width: 85%;
+}
+.omeasTeamTextBox {
+  width: 100%;
+  padding: 20px 15px;
+  background: #fff;
+}
+.teamSection .aoHeader span {
+  font-family: "DMSerifDisplay" !important;
+  font-size: 50px !important;
+  color: #bb0d19;
+}
+.teamSection .HrLine {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.teamGellery {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 3%;
+  margin: 65px 0;
+}
+.teamGellery .userCard {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 18px;
+}
+.userCard img {
+  width: 100%;
+}
+.userCard .userName {
+  font-size: 20px !important;
+  font-family: "DMSerifDisplay" !important;
+  color: #190d9a;
+}
+.userCard .title {
+  font-size: 14px !important;
+  color: #2d2d2ddb;
+}
+.aboutContainer .pub2BtnBox {
+  position: relative;
+}
+.aboutContainer .yellowBox {
+  background: none;
+}
+/* Tabe view */
+@media only screen and (min-width: 768px) {
+  .teamGellery .userCard {
+    width: 30%;
+    align-items: center;
+    gap: 15px;
+  }
+  .userCard .userName {
+    font-size: 22px !important;
+  }
+  .userCard .title {
+    font-size: 15px !important;
+  }
+  .aboutNavSection {
+    height: 350px;
+  }
+  .aboutNavLabel {
+    font-size: 79px !important;
+  }
+  .teamSection .aoHeader span {
+    font-size: 70px !important;
+  }
+  .omeasTeamTextBox {
+    padding: 20px 60px;
+  }
+  .aboutContainer .pub2BtnBox {
+    margin-bottom: 50px;
+  }
+  .aboutContainer .yellowBox {
+    margin-bottom: 31%;
+  }
+}
+
+/* Desktop view */
+@media only screen and (min-width: 1000px) {
+  .teamGellery .userCard {
+    width: 32%;
+  }
+  .userCard .userName {
+    font-size: 30px !important;
+  }
+  .userCard .title {
+    font-size: 21px !important;
+  }
+  .teamSection {
+    flex-direction: row;
+    padding-right: 3%;
+  }
+  .omeasTeamTextBox {
+    width: 63%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+  .teamSection img {
+    width: 45%;
+  }
+}

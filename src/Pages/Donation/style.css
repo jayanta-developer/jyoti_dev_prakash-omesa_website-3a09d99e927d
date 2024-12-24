@@ -1,0 +1,182 @@
+.donationMainSection .aoImg1 {
+  transform: scaleX(-1);
+}
+.donationMainSection .aboutOmesaSection {
+  background: #fff;
+  padding: 0 2%;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  position: relative;
+}
+.donationMainSection .aoTextBox {
+  width: 100%;
+}
+.donationPriceBox {
+  margin-top: 35px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.donationPriceBox .contactBtnBox {
+  position: relative;
+  bottom: 0px;
+  margin-top: 50px;
+}
+.priceBox {
+  width: 240px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+}
+.priceBox .pB1 {
+  width: 30%;
+  background: #bb0d19;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.priceBox .pB2 {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+.pB1 p {
+  color: #fff;
+  font-weight: 700 !important;
+  font-size: 35px;
+  font-family: "DMSerifDisplay" !important;
+}
+.pB2 p {
+  color: #190d9a;
+  font-size: 35px;
+  font-family: "DMSerifDisplay" !important;
+}
+.PriceS_Box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 40px;
+}
+.priceItemBox {
+  width: 22%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #d9d9d9 2px solid;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.priceItemBox p {
+  color: #190d9a;
+  font-size: 20px !important;
+  font-family: "DMSerifDisplay" !important;
+  transition: all 0.5s;
+}
+
+.priceItemBox:hover {
+  background: #190d9a;
+}
+.priceItemBox:hover p {
+  color: #fff;
+}
+
+.donationPage .aoImgBox {
+  height: 468px;
+}
+.pricePopBox {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  background: rgb(47 47 47 / 68%);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pricePopBox .priceInputMainbox {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  background: #fff;
+  border-radius: 10px;
+}
+.priceInputMainbox input {
+  width: 80%;
+  height: 60px;
+  border: 1px solid #0004;
+  padding-left: 20px;
+  font-size: 20px;
+}
+.priceInputBtn {
+  width: 80px;
+  height: 60px;
+  background: #f3e0c3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.priceInputBtn p {
+  color: #190d9a;
+  font-size: 20px;
+  font-weight: 600 !important;
+}
+
+/* Tabe view */
+@media only screen and (min-width: 768px) {
+  .donationMainSection .aboutOmesaSection {
+    padding-top: 135px;
+    padding-bottom: 620px;
+  }
+  .donationMainSection .aoTextBox {
+    width: 53%;
+  }
+  .donationPriceBox {
+    width: unset;
+    position: absolute;
+    bottom: -573px;
+    left: -346px;
+  }
+  .PriceS_Box {
+    gap: 16px;
+  }
+  .priceItemBox p {
+    font-size: 28px !important;
+  }
+  .donationPriceBox .contactBtnBox {
+    margin-top: 100px;
+  }
+}
+
+/* Desktop view */
+@media only screen and (min-width: 1000px) {
+  .donationMainSection .aboutOmesaSection {
+    padding: 0 3%;
+    padding-bottom: 0;
+    padding-top: 100px;
+  }
+  .donationPage .aoImgBox {
+    height: 585px;
+  }
+  .donationMainSection .aoTextBox {
+    width: 45%;
+  }
+  .donationPriceBox {
+    position: relative;
+    bottom: 0px;
+    left: 0;
+  }
+  .donationPriceBox {
+    display: block;
+  }
+}

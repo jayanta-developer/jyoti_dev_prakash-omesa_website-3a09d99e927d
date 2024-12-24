@@ -1,0 +1,53 @@
+.newsDetailsPage {
+  width: 100%;
+}
+.newsDMainSection {
+  width: 100%;
+  padding: 0 2%;
+  margin-top: 7%;
+}
+.newsImgBox {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.backArrow {
+  position: absolute;
+  top: -44px;
+  right: 1px;
+  width: 30px !important;
+  rotate: 90deg;
+  cursor: pointer;
+}
+.newsImgBox img {
+  width: 100%;
+}
+.newsDetailsPage .newsBox {
+  margin-bottom: 4%;
+}
+.newsDetailsPage .newsCardBox {
+  margin-top: 25px;
+}
+
+/* Tabe view */
+@media only screen and (min-width: 768px) {
+  .backArrow {
+    top: -51px;
+    right: 2px;
+    width: 50px !important;
+  }
+  .newsImgBox img {
+    width: 50%;
+  }
+}
+
+/* Desktop view */
+@media only screen and (min-width: 1000px) {
+  .backArrow {
+    top: -80px;
+    right: 32px;
+  }
+}

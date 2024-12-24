@@ -1,0 +1,138 @@
+.NavBar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+  height: 70px;
+  position: relative;
+}
+.NavBar .CLogo {
+  position: absolute;
+  top: 9px;
+  left: 3%;
+  width: 50px;
+  z-index: 1;
+}
+.navInnerBox {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.navItem {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.navItem img {
+  position: absolute;
+  top: -13px;
+}
+.navItem P {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  color: #000000;
+  transition: all 0.5s;
+}
+.navItemActive p {
+  color: #e0bf41 !important;
+}
+.navItem P:hover {
+  color: #e0bf41;
+}
+.MobileMenu {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: end;
+  align-items: center;
+  position: relative;
+  padding: 1%;
+}
+.MobileMenu .menuIcon {
+  width: 30px;
+}
+.SideMenu {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  transition: all 0.5s;
+  z-index: 9;
+}
+.backIcon {
+  width: 40px;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  z-index: 1;
+  transition: all 1.5s;
+}
+.mobileMenuBox {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6%;
+  background: #55555569;
+}
+/* Tabe view */
+@media only screen and (min-width: 768px) {
+  .MobileMenu {
+    display: none;
+  }
+  .NavBar .CLogo {
+    width: 60px;
+    top: 0;
+  }
+  .navItem P {
+    font-size: 10px !important;
+  }
+  .navInnerBox {
+    gap: 15px;
+    display: flex;
+  }
+  .NavBar {
+    padding: 0 2%;
+    gap: 20px;
+    margin-top: 30px;
+    height: 50px;
+  }
+  .navItem img {
+    top: -17px;
+  }
+}
+
+/* Desktop view */
+@media only screen and (min-width: 1000px) {
+  .NavBar {
+    padding: 0 3%;
+    gap: 40px;
+  }
+  .NavBar .CLogo {
+    width: 150px;
+  }
+  .navItem P {
+    font-size: 16px !important;
+  }
+  .navInnerBox {
+    gap: 25px;
+  }
+  .navItem img {
+    top: -11px;
+  }
+}

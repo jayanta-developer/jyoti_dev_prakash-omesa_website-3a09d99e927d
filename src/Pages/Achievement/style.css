@@ -1,0 +1,181 @@
+.achivementPage {
+  width: 100%;
+}
+.achivementMainSection {
+  width: 100%;
+  padding: 0 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.achivementMainSection .HrLine {
+  position: relative;
+}
+.achivementMainSection .aoHeader {
+  text-align: center;
+}
+.achivementMainSection .aoTextBox {
+  width: 100%;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.achivementMainSection .amSubText {
+  text-align: center;
+  margin-top: 50px !important;
+}
+.achivementMainSection .amNText {
+  text-align: center;
+}
+
+.achivementMainSection .loremCardBox {
+  position: absolute;
+  bottom: -31px;
+  z-index: 1;
+}
+.booringSection {
+  width: 100%;
+  padding: 50px 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  overflow-x: clip;
+}
+.booringB {
+  width: 98%;
+}
+.booringImgBox img {
+  width: 100%;
+}
+.achivementPage .aboutOmesaSection {
+  padding-top: 70px;
+}
+.numSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 45px 3%;
+  gap: 50px;
+}
+.numRow {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+.numCard {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.CountBox {
+  min-width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 11px;
+}
+.CountBox p {
+  font-family: "DMSerifDisplay" !important;
+  font-size: 25px !important;
+  color: #fff;
+}
+.numTextBox p {
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  color: #000;
+  margin-bottom: 7px !important;
+}
+.numTextBox span {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  color: #00000099;
+}
+.GParaSection {
+  padding: 50px 3%;
+  background: #ffafad;
+}
+.GParaSection p {
+  color: #00000099;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+.GParaSection > div {
+  padding: 20px 0;
+}
+.achivementPage .yellowBox {
+  background: #fff5da;
+}
+.achivementPage .donationSection {
+  margin-top: 0px;
+}
+
+/* Tabe view */
+@media only screen and (min-width: 768px) {
+  .achivementMainSection .aoTextBox {
+    padding-top: 75px;
+    padding-bottom: 90px;
+  }
+  .achivementMainSection .loremCardBox {
+    bottom: -67px;
+  }
+  .achivementPage .aboutOmesaSection {
+    padding-top: 140px;
+  }
+  .booringSection {
+    padding: 100px 3%;
+  }
+  .numRow {
+    flex-direction: row;
+    gap: 0;
+  }
+  .numCard {
+    width: 30%;
+  }
+  .numTextBox p {
+    margin-bottom: 17px !important;
+  }
+  .numSection {
+    padding: 80px 3%;
+  }
+  .GParaSection p {
+    font-size: 18px !important;
+  }
+}
+
+/* Desktop view */
+@media only screen and (min-width: 1000px) {
+  .achivementMainSection .aoTextBox {
+    width: 95%;
+  }
+  .booringSection {
+    flex-direction: row;
+  }
+  .booringB {
+    width: 50%;
+  }
+  .numTextBox p {
+    font-size: 20px !important;
+  }
+  .numTextBox span {
+    font-size: 16px !important;
+  }
+  .CountBox {
+    min-width: 50px;
+    height: 50px;
+  }
+  .CountBox p {
+    font-size: 35px !important;
+  }
+  .achivementPage .donationSection {
+    margin-top: 112px;
+  }
+}

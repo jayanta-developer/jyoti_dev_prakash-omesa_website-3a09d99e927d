@@ -1,0 +1,72 @@
+.galleryBox {
+  width: 100%;
+  padding: 0 3%;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(236, 236, 236, 1) 52%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gallerySummery {
+  width: 100%;
+  text-align: center;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  margin: 40px 0 !important;
+}
+.galleryPage .photoGelleryRow {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 17px;
+}
+.galleryPage .photoGelleryRow img {
+  width: 47%;
+  height: 280px;
+}
+.galleryPage .donationSection {
+  margin-top: 150px;
+}
+.pagination {
+  margin-top: 30px;
+}
+
+.pagination Button {
+  margin: 0 10px;
+}
+
+/* Tabe view */
+@media only screen and (min-width: 768px) {
+  .gallerySummery {
+    width: 95%;
+    font-size: 18px !important;
+    margin: 70px 0 !important;
+  }
+  .galleryPage .photoGelleryRow img {
+    width: 31.5%;
+    height: 280px;
+  }
+}
+
+/* Desktop view */
+@media only screen and (min-width: 1000px) {
+  .gallerySummery {
+    width: 60%;
+  }
+  .galleryPage .photoGelleryRow img {
+    width: 32%;
+    height: 280px;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .galleryPage .photoGelleryRow img {
+    width: 23%;
+  }
+}
+@media only screen and (min-width: 1355px) {
+  .galleryPage .photoGelleryRow img {
+    width: 24%;
+  }
+}

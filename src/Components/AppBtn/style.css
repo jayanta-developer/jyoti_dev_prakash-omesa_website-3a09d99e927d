@@ -1,0 +1,27 @@
+.appBtn {
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 0 16px;
+}
+.appBtn p {
+  font-weight: 500 !important;
+  font-size: 16px !important;
+}
+
+/* Tabe view */
+@media only screen and (min-width: 768px) {
+  .appBtn p {
+    font-size: 10px !important;
+  }
+}
+
+/* Desktop view */
+@media only screen and (min-width: 1000px) {
+  .appBtn p {
+    font-size: 16px !important;
+  }
+}
