@@ -15,6 +15,7 @@ import mailIcon from "../../Assets/Images/mailIcon.png";
 import callIcon from "../../Assets/Images/callIcon.png";
 import facebookIcon from "../../Assets/Images/facebookIcon.png";
 import twittIcon from "../../Assets/Images/TwitteIcon.png"
+import stmIcon from "../../Assets/Images/stmIcon6.jpg"
 
 
 export default function Footer({ activeNav, setActiveNav }) {
@@ -120,6 +121,11 @@ export default function Footer({ activeNav, setActiveNav }) {
         </Box>
         <Box className="fLastBox">
           <Typography >© 2024 <span>Odisha Mining Engineers Service Association.</span> All Rights Reserved.</Typography>
+          <div className="partnerBox">
+            <p>Knowledge Partner</p>
+            <img src={stmIcon} alt="" />
+
+          </div>
         </Box>
       </Box>
     </>

@@ -9,7 +9,7 @@ import workerImg from "../../Assets/Images/miningWorkerImg.png";
 import miningDumperImg from "../../Assets/Images/miningDumperImg.png"
 import contactBtnBg from "../../Assets/Images/contactBtn.png";
 import omesaDBg from "../../Assets/Images/aboutOmesaDBg.png";
-import A_omeasFm from "../../Assets/Images/A_omeasFm.png";
+import A_omeasFm from "../../Assets/Images/mineCover.jpg";
 import rebinImg from "../../Assets/Images/rabinImg.png";
 import publicationBg from "../../Assets/Images/publicationBg.png";
 import donationImg from "../../Assets/Images/donationImg.png";
@@ -30,6 +30,13 @@ import GrC2 from "../../Assets/Images/gallery/G34.jpg"
 import GrC3 from "../../Assets/Images/gallery/G35.jpg"
 import GrC4 from "../../Assets/Images/gallery/G36.jpg"
 
+import stmIcon1 from "../../Assets/Images/stmIcon1.jpg"
+import stmIcon2 from "../../Assets/Images/stmIcon2.jpg"
+import stmIcon3 from "../../Assets/Images/stmIcon3.jpg"
+import stmIcon4 from "../../Assets/Images/stmIcon4.jpg"
+import stmIcon5 from "../../Assets/Images/stmIcon5.jpg"
+import stmIcon6 from "../../Assets/Images/stmIcon6.jpg"
+import stmIcon7 from "../../Assets/Images/stmIcon7.jpeg"
 
 //data
 import { PublicationData, newsData } from "../../Assets/Data"
@@ -44,6 +51,33 @@ export default function Home({ activeNav, setActiveNav, setNewsIndex }) {
   setActiveNav(0);
   const navigate = useNavigate();
 
+
+  const clogData = [
+    {
+      icon: stmIcon1,
+      link: "https://odisha.gov.in/"
+    },
+    {
+      icon: stmIcon2,
+      link: "https://mines.gov.in/webportal/home"
+    },
+    {
+      icon: stmIcon3,
+      link: "https://coal.nic.in/"
+    },
+    {
+      icon: stmIcon4,
+      link: "https://mines.gov.in/webportal/home"
+    },
+    {
+      icon: stmIcon5,
+      link: "https://mines.gov.in/webportal/home"
+    },
+    {
+      icon: stmIcon6,
+      link: "https://mines.gov.in/webportal/home"
+    },
+  ]
 
   const handleNewsClick = (i) => {
     setNewsIndex(i)
@@ -96,6 +130,20 @@ export default function Home({ activeNav, setActiveNav, setNewsIndex }) {
 
             </Box>
           </Box> */}
+
+
+
+          <div className="sideClogoBox">
+            {
+              clogData?.map((el, i) => (
+                <a href={el?.link} target='_blank'>
+                  <img src={el?.icon} alt={el?.link} />
+                </a>
+              ))
+            }
+
+
+          </div>
         </Box>
 
         {/* Omesa About section */}
@@ -160,9 +208,9 @@ export default function Home({ activeNav, setActiveNav, setNewsIndex }) {
             <Typography className='welHeader2' data-aos="fade-down">OMESA</Typography>
             <Box className="HrLine" sx={{ background: '#190D9A' }} data-aos="fade-down"></Box>
             <Typography className='amNText' data-aos="fade-down">
-            Support OMESA's mission in advancing mining practices in Odisha. 
-            Your help fuels our efforts in technology, education, and community outreach. 
-            Join us in making a difference today.
+              Support OMESA's mission in advancing mining practices in Odisha.
+              Your help fuels our efforts in technology, education, and community outreach.
+              Join us in making a difference today.
             </Typography>
             <Box className="contactBtnBox" data-aos="fade-right">
               <img src={contactBtnBg} />
@@ -222,8 +270,8 @@ export default function Home({ activeNav, setActiveNav, setNewsIndex }) {
         <Box className="newsBox">
           <Typography className='pubHeader' data-aos="fade-down">Latest News</Typography>
           <Box className="HrLine" sx={{ background: '#BB0D19' }} data-aos="fade-down"></Box>
-          <Typography className='pubSubHeader' data-aos="fade-down">Stay updated with the latest breakthroughs in the mining industry. 
-            From cutting-edge technologies to global trends, 
+          <Typography className='pubSubHeader' data-aos="fade-down">Stay updated with the latest breakthroughs in the mining industry.
+            From cutting-edge technologies to global trends,
             we bring you the news shaping the future of mining. </Typography>
 
           <Box className="newsCardBox">

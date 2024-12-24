@@ -80,8 +80,9 @@
   font-weight: 500 !important;
 }
 .welNText {
-  font-size: 16px !important;
-  color: #00000099;
+  font-size: 22px !important;
+  font-weight: 600 !important;
+  color: #000;
 }
 .contactBtnBox {
   width: 170px;
@@ -196,6 +197,8 @@
   width: 100%;
   z-index: 1;
   position: relative;
+  border-radius: 156px 0 0 0;
+  overflow: hidden;
 }
 .aoImgBox .aoImgLable {
   position: absolute;
@@ -577,6 +580,25 @@
   font-weight: 500 !important;
   color: #fff;
   text-align: center;
+}
+.sideClogoBox {
+  width: 150px;
+  height: 80vh;
+  position: absolute;
+  top: 20px;
+  right: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  overflow-y: scroll;
+  gap: 30px;
+}
+.sideClogoBox a {
+  width: 80%;
+}
+.sideClogoBox img {
+  width: 100%;
 }
 /* Tabe view */
 @media only screen and (min-height: 660px) {
